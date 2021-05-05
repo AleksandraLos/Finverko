@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #004B87;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #FFCD00;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    float: right;
+}
+
+.navbar img {
+    width: 280px;
+    height: 80px;
+    padding: 5px;
+}
+
+.navbar a:hover {
+    background-color: #FFCD00;
+    color: black;
+}
+
+.header {
+    height: 800px;
+    padding: 80px;
+    text-align: center;
+    background-image: url(./bccc.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.tjänster {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4 0px;
+    align-items: center;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.servis>img {
+    width: 290px;
+    height: 290px;
+}
+
+.omOss {
+    height: 600px;
+    background-color: #004B87;
+    color: #FFCD00;
+}
+
+.omOss>img {
+    float: right;
+    margin-right: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.omOss>p {
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.remsa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #FFCD00;
+    max-height: 300px;
+}
+
+.client {
+    background-color: #ddd;
+}
